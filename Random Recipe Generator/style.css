@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Epilogue', sans-serif !important;
+  font-weight: 500 !important;
+  background: url("images/background-image.jpeg") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+main {
+  max-width: 800px;
+  width: 95%;
+  margin-top: 6rem;
+}
+main .header {
+  background-color: #c78642;
+}
+main .header h1 {
+  color: #2f290b;
+}
+main .recipe-container {
+  background-color: #b6b7b2;
+  color: #373938;
+}
+main .recipe-container .recipe-image {
+  width: 100%;
+  height: 500px;
+}
+main .recipe-container button {
+  background-color: #363731;
+  font-size: 1.125rem;
+}
