@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Epilogue', sans-serif !important;
+  background: linear-gradient(to bottom right, #ef32d9, #89fffd);
+  min-height: 100vh;
+}
+main {
+  margin-top: 6rem;
+}
+main h1 {
+  color: #1c2237;
+}
+main button {
+  background-color: #e2865e;
+  color: #230e00;
+  font-size: 1.125rem;
+}
