@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Epilogue', sans-serif !important;
+  background: url("images/background-image.png");
+  color: #162d4d !important;
+  min-height: 90vh;
+}
+main {
+  max-width: 700px;
+  width: 95%;
+  margin-top: 5rem;
+}
+main h1 {
+  background-color: #95c2e7;
+}
+main .profile-card {
+  background-color: #9bc5e6;
+  font-size: 1.125rem;
+}
+main .profile-card .avatar {
+  width: 130px;
+  height: 130px;
+}
+main .profile-card p #email {
+  overflow-wrap: anywhere;
+}
+main .profile-card button {
+  color: inherit;
+  background-color: #ed7f59;
+  transition: 0.2s ease;
+  overflow-wrap: anywhere;
+}
+main .profile-card button:hover {
+  background-color: #ef8c6a;
+}

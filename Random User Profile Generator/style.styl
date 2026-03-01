@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&display=swap")
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body 
+    font-family 'Epilogue', sans-serif !important
+    background url(images/background-image.png)
+    color darken(#1F416E, 30%) !important
+    min-height 90vh
+
+main 
+    max-width 700px 
+    width 95%
+    margin-top 5rem
+
+    h1
+        background-color darken(#B8D6EF, 10%)
+
+    .profile-card
+        background-color #9BC5E6
+        font-size 1.125rem
+
+        .avatar
+            width 130px
+            height 130px
+
+        p 
+            #email
+                overflow-wrap: anywhere;
+
+        button 
+            color inherit    
+            background-color #ED7F59
+            transition 0.2s ease
+            overflow-wrap anywhere
+
+            &:hover
+                background-color lighten(#ED7F59, 10%)
