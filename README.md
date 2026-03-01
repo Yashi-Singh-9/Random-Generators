@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-> A collection of interactive web-based random content generators built using HTML, JavaScript, APIs, and multiple CSS preprocessors (SCSS, SASS, Stylus, Less).
+> A collection of interactive web-based random content generators built using HTML, Bootstrap, JavaScript, APIs, and multiple CSS preprocessors (SCSS, SASS, Stylus, Less).
 
 ---
 
