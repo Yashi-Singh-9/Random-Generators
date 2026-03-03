@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif !important;
+  background: url("images/background-image.png") no-repeat;
+  background-size: cover;
+  min-height: 85vh;
+}
+
+main {
+  margin-top: 6rem;
+  max-width: 750px;
+  width: 95%;
+}
+main h1,
+main p {
+  background-color: rgb(229.9787234043, 209.1276595745, 182.0212765957);
+  color: rgb(64.4069767442, 43.863372093, 31.0930232558);
+}
+main .btns button {
+  font-size: 1.55rem;
+  transition: 0.3s ease;
+}
+main .btns #catBtn {
+  background-color: rgb(237.3384615385, 151.5538461538, 26.6615384615);
+  color: rgb(65.2914798206, 40.1542600897, 7.5085201794);
+}
+main .btns #catBtn:hover {
+  background-color: rgb(244.6615384615, 194.4461538462, 121.3384615385);
+}
+main .btns #dogBtn {
+  background-color: rgb(75.0526315789, 91.3684210526, 110.9473684211);
+}
+main .btns #dogBtn:hover {
+  background-color: rgb(95.6315789474, 116.4210526316, 141.3684210526);
+}
+main #imageContainer img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
