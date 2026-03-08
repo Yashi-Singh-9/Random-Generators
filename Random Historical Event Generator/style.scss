@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background: url(images/background-image.jpeg) no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+main {
+    margin-top: 5rem;
+    max-width: 700px;
+    width: 95%;
+
+    h1 {
+        background-color: darken(#CDAA74, 20%);
+        color: darken($color: #C39450, $amount: 40%);
+    }
+
+    button {
+        font-size: 1.4rem;
+        background-color: #D79839;
+        color: darken(#4C311C, 5%);
+    }
+
+    .card {
+        border: 3px solid #4C311C;
+
+        .event-year {
+            color: #4C311C;
+        }
+
+        .event-text {
+            font-size: 1.125rem;
+            color: darken(#4C311C, 5%);
+        }
+    }
+}
