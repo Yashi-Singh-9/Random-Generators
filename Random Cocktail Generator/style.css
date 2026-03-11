@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 1.15rem !important;
+  background: url(images/background-image.jpeg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 90vh;
+}
+
+main {
+  margin-top: 4.5rem;
+  max-width: 700px;
+  width: 95%;
+}
+main h1 {
+  background-color: #012023;
+}
+main button {
+  background-color: #6FA124;
+  color: black;
+  transition: 0.3s ease;
+}
+main button:hover {
+  background-color: rgb(162.8883248731, 216.4416243655, 82.5583756345);
+}
+main .card {
+  border: 4px solid #177845;
+  color: rgb(80.9, 80.9, 80.9);
+}
+main .card h2,
+main .card h4 {
+  color: rgb(14.7972027972, 77.2027972028, 44.3916083916);
+}
+main .card .cocktail-img {
+  width: 100%;
+  max-width: 300px;
+}
+main .instructions {
+  color: rgb(80.9, 80.9, 80.9);
+}
+main .instructions h4 {
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
