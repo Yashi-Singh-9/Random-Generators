@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.135rem !important;
+  background: url(images/background-image.jpeg) no-repeat center center;
+  background-size: auto;
+}
+main {
+  margin-top: 4.5rem;
+  max-width: 700px;
+  width: 95%;
+}
+main h1 {
+  background-color: #ccb585;
+  color: #463721;
+}
+main button {
+  font-size: 1.35rem;
+  background-color: #d6b48d;
+  color: #45341b;
+}
+main .card {
+  border: 5px solid #d6b48d;
+}
+main .card h3 {
+  color: #45341b;
+}
+main .card a,
+main .card a:visited {
+  color: #2e5e6a;
+}
